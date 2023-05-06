@@ -11,9 +11,10 @@
 
 # Componentes criados
 
-## Lista de produtos
-1 - listProducts
-Interagi com o $store paraa listar produtos no state e alterar através das mutations
+## Carrinho de compra
+Interage com o $store paraa listar produtos no state e alterar através das mutations
+./components/Produtos.vue
+./components/Produto.vue
 
 
 
