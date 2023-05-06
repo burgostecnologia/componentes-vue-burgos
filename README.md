@@ -12,10 +12,12 @@
 # Componentes criados
 
 ## Carrinho de compra
-Interage com o $store paraa listar produtos no state e alterar através das mutations
-./components/Produtos.vue
+**Interage com o $store paraa listar produtos no state e alterar através das mutations <br>
+./components/Produtos.vue <br>
 ./components/Produto.vue
 
+**Desenho do componente
+/src/draw/desenho.drawio
 
 
 

@@ -1,28 +1,25 @@
 <mxfile host="65bd71144e">
     <diagram id="oS4GQrjNPyq7I75_R-We" name="Componente Carrinho Compras">
-        <mxGraphModel dx="585" dy="475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="553" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="11" style="html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=11;endArrow=classic;endFill=1;" edge="1" parent="1" source="6" target="7">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="6" value="store&lt;br&gt;VUEX" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+                <mxCell id="6" value="store&lt;br&gt;VUEX" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
                     <mxGeometry x="130" y="90" width="60" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="Componente Carrinho de Compras" style="swimlane;" vertex="1" parent="1">
-                    <mxGeometry x="255" y="50" width="360" height="160" as="geometry"/>
+                <mxCell id="10" value="Componente Carrinho de Compras" style="swimlane;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="50" width="360" height="160" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="#Produto" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fontSize=11;" vertex="1" parent="10">
+                <mxCell id="8" value="produtos" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fontSize=11;" parent="10" vertex="1">
                     <mxGeometry x="210" y="50" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="#Produtos" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="10">
+                <mxCell id="7" value="produto" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" parent="10" vertex="1">
                     <mxGeometry x="50" y="50" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" style="edgeStyle=none;html=1;exitX=0;exitY=0;exitDx=120;exitDy=50;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=30;entryPerimeter=0;" edge="1" parent="10" source="7" target="8">
+                <mxCell id="9" style="edgeStyle=none;html=1;exitX=0;exitY=0;exitDx=120;exitDy=50;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=30;entryPerimeter=0;" parent="10" source="7" target="8" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="" style="edgeStyle=none;html=1;fontSize=11;endArrow=classic;endFill=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="7" target="6">
+                <mxCell id="12" value="" style="edgeStyle=none;html=1;fontSize=11;endArrow=classic;endFill=1;startArrow=classic;startFill=1;" parent="1" source="7" target="6" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
             </root>

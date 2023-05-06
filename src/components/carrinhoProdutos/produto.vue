@@ -1,3 +1,4 @@
+
 <template>  
   
     <div class="card">
@@ -10,31 +11,35 @@
 </template>
 
 <script>
+
 //  import Produto from './produto.vue' 
 export default {
-  data () {
-    return {
-      prodEstaNoCarrinho : true
-    }
-  },
   
-    adicProduto(){
-        console.log("Adicionar")
-        this.$store.commit('mutAdicProduto',this.produto)
+    data () {
+      return {
+        prodEstaNoCarrinho : true
+      }
     },
-    removeProduto(){
-      this.$store.commit("mutRemoveProduto",this.produto.id)
+    methods: {
+      adicProduto(){
+          console.log("Adicionar")
+          this.$store.commit('mutAdicProduto',this.produto)
+      },
+      removeProduto(){
+        this.$store.commit("mutRemoveProduto",this.produto.id)
+      },
+      temNoCarrinho(id){
+      // console.log(this.$store.state.carrinho.findIndex(item => item.id === id) )
+        return this.$store.state.carrinho.findIndex(item => item.id === id) === -1 ? false : true
+      }
     },
-    temNoCarrinho(id){
-     // console.log(this.$store.state.carrinho.findIndex(item => item.id === id) )
-      return this.$store.state.carrinho.findIndex(item => item.id === id) === -1 ? false : true
-    }
-  }, 
-  props: {
-    produto: Object,
-  },
+    props: {
+      produto: Object,
+    },
 
-}
+  } 
+
+
 </script>
 
 <style>
