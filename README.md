@@ -8,6 +8,10 @@
 >npm install vuex@next --save
 -Criada manualmente a pasta store com o arquivo index.js
 
+## Instalado pacote de transicoes de tela transitions.css
+> https://www.transition.style/ 
+> https://github.com/argyleink/transition.css#custom (documentação de instalacao)
+
 
 # Componentes criados
 

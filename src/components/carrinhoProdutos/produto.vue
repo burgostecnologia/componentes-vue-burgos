@@ -4,8 +4,8 @@
     <div class="card">
         {{produto.nome}} 
         (Valor: {{produto.preco}})
-        <button @click="adicProduto()">Adicionar</button>
-        <button v-if="temNoCarrinho(produto.id)" @click="removeProduto()">Remover</button>
+        <button class="botao" @click="adicProduto()">Adicionar</button>
+        <button class="botao" v-if="temNoCarrinho(produto.id)" @click="removeProduto()">Remover</button>
     </div>
         
 </template>
@@ -43,8 +43,8 @@ export default {
 </script>
 
 <style>
-.card{
-    background: chocolate;
+.card{   
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
     padding: 6px;
     border-radius: 4px;
     margin-bottom: 5px;
@@ -52,4 +52,7 @@ export default {
     gap: 5px;
     justify-content: space-between;
 }
+.botao{
+  color: black;
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);}
 </style>

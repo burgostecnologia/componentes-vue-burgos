@@ -5,13 +5,14 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* background-color: #242424; */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
 }
 
 a {
@@ -73,6 +74,7 @@ button:focus-visible {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  
 }
 
 @media (prefers-color-scheme: light) {
@@ -87,3 +89,4 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
