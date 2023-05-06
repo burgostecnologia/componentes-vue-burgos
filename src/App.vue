@@ -7,12 +7,16 @@ export default({
 }
 )
   
-  
-
 </script>
 
 <template>
   <div>
+    <nav>
+      <router-link to='/'>Home</router-link>
+      <router-link to='/carrinhocompra'>Carrinho Compras</router-link>
+    </nav>
+    <router-view></router-view>
+
     <Produtos></Produtos>
     <br><br>Quantidade de itens no carrinho: {{ $store.state.carrinho.length }}<br><br>
 

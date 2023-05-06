@@ -12,6 +12,10 @@
 > https://www.transition.style/ 
 > https://github.com/argyleink/transition.css#custom (documentação de instalacao)
 
+## Adicionado o Router 4
+>npm install vue-router@4
+
+
 
 # Componentes criados
 
@@ -20,7 +24,7 @@
 ./components/Produtos.vue <br>
 ./components/Produto.vue
 
-**Desenho do componente
+**Desenho dos componentes
 /src/draw/desenho.drawio
 
 

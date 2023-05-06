@@ -1,20 +1,13 @@
-
 <template>  
-  
-
-  
     <div class="card">      
         {{produto.nome}} 
         (Valor: {{produto.preco}})
         <button class="botao" @click="adicProduto()">Adicionar</button>
         <button class="botao" v-if="temNoCarrinho(produto.id)" @click="removeProduto()">Remover</button>
-    </div>
-        
+    </div>        
 </template>
 
 <script>
-
-//  import Produto from './produto.vue' 
 export default {
   
     data () {
