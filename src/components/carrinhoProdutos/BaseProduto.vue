@@ -39,13 +39,14 @@ export default {
 
 <style>
 .card{   
-    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
-    padding: 6px;
-    border-radius: 4px;
-    margin-bottom: 5px;
-    display: flex;
-    gap: 5px;
-    justify-content: space-between;
+  background: #11a1ea;  /* fallback for old browsers */
+  padding: 6px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+  width:400px;
 }
 .botao{
   color: black;
