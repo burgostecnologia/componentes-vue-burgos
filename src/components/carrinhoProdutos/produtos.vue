@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Produto v-for="produto in $store.state.produtos" :key=produto.id :produto=produto></Produto> 
+      <Produto v-for="produto in $store.state.produtos" :key=produto.id :produto=produto></Produto> 
   </div>
 </template>
 
@@ -15,4 +15,5 @@ export default {
 
 <style>
 
+ 
 </style>

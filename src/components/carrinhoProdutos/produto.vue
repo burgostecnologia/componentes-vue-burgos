@@ -1,7 +1,9 @@
 
 <template>  
   
-    <div class="card">
+
+  
+    <div class="card">      
         {{produto.nome}} 
         (Valor: {{produto.preco}})
         <button class="botao" @click="adicProduto()">Adicionar</button>
@@ -44,7 +46,7 @@ export default {
 
 <style>
 .card{   
-  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
     padding: 6px;
     border-radius: 4px;
     margin-bottom: 5px;
